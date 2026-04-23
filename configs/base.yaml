@@ -1,0 +1,12 @@
+model:
+  name: silent_bridge
+  hidden_dim: 4096
+  num_layers: 12
+
+training:
+  batch_size: 32
+  learning_rate: 1e-4
+  epochs: 100
+
+data:
+  dataset: some_dataset
